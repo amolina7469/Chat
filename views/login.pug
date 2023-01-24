@@ -1,0 +1,15 @@
+extends layout.pug 
+
+block content 
+  h2.mt-5.mb-5 Login de usuarios
+  form(action="/users/login", method="POST")
+    
+    .mb-3 
+      label.form-label Email
+      input.form-control(type="text", name="email")
+
+    .mb-3 
+      label.form-label Password
+      input.form-control(type="password", name="password")
+
+    input.btn.btn-info(type="submit", value="Login")

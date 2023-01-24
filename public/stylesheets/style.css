@@ -1,0 +1,58 @@
+.chat {
+  background-color: rgba(65, 105, 225, 0.651);
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.main {
+  padding: 30px;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.main ul {
+  list-style: none;
+}
+
+.main ul li {
+  margin: 10px 0;
+}
+
+.footer {
+  background-color: royalblue;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.formulario {
+  display: flex;
+  gap: 20px;
+}
+
+.formulario button {
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.owner {
+  color: rgb(255, 255, 255);
+  text-align: end;
+  border-radius: 5px;
+  padding: 5px;
+  /* display: inline-flex; */
+  /* border: 2px solid royalblue;
+  background-color: royalblue; */
+}
